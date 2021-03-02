@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Tahoma;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+body{
+    background-image: url('../images/fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+}
+
+.section-login{
+    width: 30%;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.719);
+}
+
+.section-cadastro{
+    width: 30%;
+    height: 530px;
+    margin: 0 auto;
+    margin-top: 70px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.719);
+}
+
+.titulo{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+.formulario-login{
+    width: 100%;
+    height: 250px;
+}
+
+.formulario-cadastro{
+    width: 100%;
+    height: 350px;
+}
+
+.campos{
+    width: 80%;
+    height: 40px;
+    border: none;
+    margin: 5px 10%;
+    padding-left: 10px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom: solid 3px white;
+}
+
+#botao{
+    width: 83%;
+    height: 40px;
+    border: solid 3px purple;
+    margin: 20px 10%;
+    font-size: 20px;
+    background-color: purple;
+    font-family: Tahoma;
+    border-radius: 5px;
+}
+
+#lembrar{
+    width: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 10px 0px 5px 10%;
+}
+
+#recuperar-senha{
+    margin-left: 35%;
+}
+
+.cadastro{
+    width: 90%;
+    height: 80px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+    border-top: solid 1px white;
+}
+
+::-webkit-input-placeholder{
+    color: white;
+}
+
+@media screen and (max-width: 480px){
+    .container{
+        min-height: 650px;
+    }
+
+    .section-cadastro{
+        margin-top: 30px;
+        width: 90%;
+    }
+
+    .section-login{
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+}
